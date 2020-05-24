@@ -8,10 +8,9 @@ squares.forEach(square => {
     // Check if a square doesn't already contain a sign
     if (!e.target.textContent) {
       e.target.textContent = sign;
+      isWinner();
       isX = !isX;
     }
-
-    isWinner();
   });
 });
 
