@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html { font-size: 62.5% }
+body {
+  box-sizing: border-box;
+  font-size: 1.8rem;
+}
+
+.game-board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  flex: 0 0 33.333333%;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: center;
+  line-height: 10rem;
+}
